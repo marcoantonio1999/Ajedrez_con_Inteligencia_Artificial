@@ -1,5 +1,6 @@
 from chess.interface import Interface
-from tkinter import Tk, Canvas
+from tkinter import Canvas
+import tkinter as tk
 
 """
     Autor: Marco Antonio Orduña Avila
@@ -8,7 +9,7 @@ from tkinter import Tk, Canvas
 """
 
 if __name__ == "__main__":
-    window = Tk()
+    window = tk.Tk()
     #Define el tamaño de la ventana
 
     window.geometry("770x562")
